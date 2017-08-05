@@ -14,14 +14,22 @@
             Gesamt
           </a>
           <ul class="nav navbar-nav">
+          <li><a href="{{ url_for('index') }}">Home</a></li>
           <li><a href="{{ url_for('about') }}">About</a></li>
         </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container">
+    <div class='container'>
       {% block body %}{% endblock %}
+    </div>
+
+    <hr>
+    <div class='container'>
+      <p class='text-center'>
+        All copyrights belong to their respective owners.
+      </p>
     </div>
 
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>

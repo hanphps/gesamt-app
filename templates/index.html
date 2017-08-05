@@ -1,9 +1,9 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-  <ul class="list-group">
+  <ul class='list-group'>
     {% for x in a %}
-      <li class="list-group-item"><a href="{{x.link}}">{{x.name}}</a></li>
+      <li class='list-group-item'><a href='{{x.link}}'  target='_blank'>{{x.name}}</a></li>
     {% endfor %}
   </ul>
 {% endblock %}
