@@ -11,6 +11,11 @@ def Data():
             'link': 'http://www.quantumforquants.org/quantum-computing/why-quantum-finance/'
         },
         {
+            'name': 'Gravitational Waves Observed',
+            'type': 'article',
+            'link': 'http://www.news.gatech.edu/features/gravitational-waves-observed'
+        },
+        {
             'name': 'Biologist Explains One Concept in 5 Levels of Difficulty - CRISPR',
             'type': 'video',
             'link': 'https://www.youtube.com/watch?v=sweN8d4_MUg'
