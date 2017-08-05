@@ -2,6 +2,8 @@
 
 {% block body %}
   <ul class="list-group">
-    <li class="list-group-item">Test</li>
+    {% for x in a %}
+      <li class="list-group-item"><a href="{{x.link}}">{{x.name}}</a></li>
+    {% endfor %}
   </ul>
 {% endblock %}
