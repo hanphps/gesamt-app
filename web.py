@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request
 import os
+from data import Data
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    name = request.values.get('name')
-    return render_template('index.html', name=name)
+    #name = request.values.get('name')
+    a = Data()
+    return render_template('index.html',a=a)
 
 @app.route('/about')
 def about():
