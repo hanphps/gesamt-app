@@ -14,16 +14,6 @@ def Data():
             'name': 'Gravitational Waves Observed',
             'type': 'article',
             'link': 'http://www.news.gatech.edu/features/gravitational-waves-observed'
-        },
-        {
-            'name': 'Biologist Explains One Concept in 5 Levels of Difficulty - CRISPR',
-            'type': 'video',
-            'link': 'https://www.youtube.com/watch?v=sweN8d4_MUg'
-        },
-        {
-            'name': 'The Game of Blackjack and Analysis of Counting Cards',
-            'type': 'paper',
-            'link': 'http://www.annaklis.com/uploads/6/4/7/2/6472295/zimran_klis_fuster_rivelli.gametheory.blackjack.pdf'
         }
 
     ]
